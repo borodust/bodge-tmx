@@ -5,5 +5,5 @@ editor file parser library.
 
 # Loading
 ```lisp
-(ql:quickload sndfile-blob bodge-tmx)
+(ql:quickload '(tmx-blob bodge-tmx))
 ```
