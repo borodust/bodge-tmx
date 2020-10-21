@@ -10,6 +10,7 @@
 
 # system dependent junk
 local/
+*.a*
 *.so.*
 *.dylib.*
 *.dll.*

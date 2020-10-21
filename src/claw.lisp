@@ -14,5 +14,6 @@
   :trim-enum-prefix t
   :recognize-bitfields t
   :recognize-strings t
+  :with-adapter (:static '(:tmx-lib "../adapter.c"))
   :override-types ((:pointer claw-utils:claw-pointer))
   :symbolicate-names (:by-removing-prefixes "tmx_"))

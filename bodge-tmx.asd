@@ -9,4 +9,5 @@
   :pathname "src/"
   :components ((:file "claw")
                (:module :spec)
+               (:module :tmx-lib :pathname "lib/tmx/")
                (:module :tmx-includes :pathname "lib/tmx/src/")))
